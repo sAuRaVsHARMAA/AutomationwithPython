@@ -1,0 +1,8 @@
+[1m[31mERROR   [0m Automation Failed:utils.py:29 ('Test Failed... Page title does not match', AssertionError("assert 'My Store' == 'My Stor'\n  - My Stor\n  + My Store\n  ?        +"))
+Traceback (most recent call last):
+  File "C:\Users\Saurav\PycharmProjects\AutomationwithPython\Tests\test_alltabs.py", line 83, in test_mywishlist
+    assert self.driver.title == 'My Stor'
+AssertionError: assert 'My Store' == 'My Stor'
+  - My Stor
+  + My Store
+  ?        +

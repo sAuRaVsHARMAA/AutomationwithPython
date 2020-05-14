@@ -1,0 +1,8 @@
+[1m[31mERROR   [0m Automation Failed:utils.py:29 ('Test Failed... Page title does not match', AssertionError("assert 'Order history - My Store' == 'Order history - My Stor'\n  - Order history - My Stor\n  + Order history - My Store\n  ?                        +"))
+Traceback (most recent call last):
+  File "C:\Users\Saurav\PycharmProjects\AutomationwithPython\Tests\test_alltabs.py", line 39, in test_order_history
+    assert self.driver.title == "Order history - My Stor"
+AssertionError: assert 'Order history - My Store' == 'Order history - My Stor'
+  - Order history - My Stor
+  + Order history - My Store
+  ?                        +

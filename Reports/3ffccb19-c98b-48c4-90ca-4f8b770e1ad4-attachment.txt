@@ -1,0 +1,8 @@
+[1m[31mERROR   [0m root:test_Login.py:51 Page Title does not match
+Traceback (most recent call last):
+  File "C:\Users\Saurav\PycharmProjects\AutomationwithPython\Tests\test_Login.py", line 49, in test_login
+    assert acc_name == "Saurav Sharm"
+AssertionError: assert 'Saurav Sharma' == 'Saurav Sharm'
+  - Saurav Sharm
+  + Saurav Sharma
+  ?             +
