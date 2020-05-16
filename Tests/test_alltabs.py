@@ -1,3 +1,9 @@
+import sys
+sys.path.append("C:/Users/Saurav/PycharmProjects/AutomationwithPython")
+from Locators.Locators_LoginPage import LocatorLoginPage
+from Locators.Locators_First_Page import LocatorFirstPage
+from Pages.First_Page import UserAction
+from utils.utils import UtilsData
 from allure_commons.types import AttachmentType
 from selenium import webdriver
 import pytest
@@ -5,12 +11,6 @@ import moment
 import time
 from selenium.common.exceptions import *
 import allure
-import sys
-sys.path.append("C:/Users/Saurav/PycharmProjects/AutomationwithPython")
-from Locators.Locators_LoginPage import LocatorLoginPage
-from Locators.Locators_First_Page import LocatorFirstPage
-from Pages.First_Page import UserAction
-from utils.utils import UtilsData
 
 
 class TestTabs:
